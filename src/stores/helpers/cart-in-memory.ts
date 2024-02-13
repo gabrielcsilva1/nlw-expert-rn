@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 import { ProductProps } from '@/utils/data/products';
 import { ProductCartProps } from '../cart-store';
 
@@ -16,4 +17,20 @@ export function add(
     }
 
     return [...products, { ...newProduct, quantity: 1 }];
+}
+
+export function remove(
+    products: ProductCartProps[],
+    productRemovedId: string
+): ProductCartProps[] {
+    const uptadedProducts = products.map((product) =>
+        product.id === productRemovedId
+            ? {
+                  ...product,
+                  quantity: product.quantity > 0 ? product.quantity - 1 : 0,
+              }
+            : product
+    );
+
+    return uptadedProducts.filter((product) => product.quantity > 0);
 }
