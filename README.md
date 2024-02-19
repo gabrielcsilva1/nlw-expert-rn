@@ -23,16 +23,16 @@ Este projeto foi desenvolvido durante o evento NLW Expert da Rockeatseat, a idei
 
 ## 🚀 Instalando o projeto
 Clone o repositório:
-```
+```bash
 git clone https://github.com/gabrielcsilva1/nlw-expert-rn.git
 ```
 
 Instalando as dependências
-```
+```bash
 npm install
 ```
 
 Rodando o app
-```
+```bash
 npx expo start
 ```
