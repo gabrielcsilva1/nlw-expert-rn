@@ -20,7 +20,7 @@ import { LinkButton } from '@/components/link-button';
 import { useNavigation } from 'expo-router';
 
 // código do país + DDD + Número de telefone
-const PHONE_NUMBER = '55<DDD><Your Phone Number>';
+const PHONE_NUMBER = '';
 
 export default function Cart() {
     const cartStore = useCartStore();
@@ -68,9 +68,9 @@ export default function Cart() {
         \n Valor total: ${total};
         `;
 
-        // Linking.openURL(
-        //     `http://api.whatsapp.com/send?phone${PHONE_NUMBER}&text=${message}`
-        // );
+        Linking.openURL(
+            `http://api.whatsapp.com/send?phone${PHONE_NUMBER}&text=${message}`
+        );
 
         cartStore.clear();
 
