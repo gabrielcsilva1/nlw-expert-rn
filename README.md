@@ -1,7 +1,7 @@
 <h1 align="center">NLW-EXPERT-RN</h1>
 
 <div align="center">
-    <img src="./screenshots/screens.png" width="600px"/>
+    <img src="./screenshots/screens.png" width="840px"/>
 </div>
 
 ##
