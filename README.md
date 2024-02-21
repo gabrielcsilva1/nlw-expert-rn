@@ -7,11 +7,12 @@
 ##
 
 ## 💬 Sobre o Projeto
-Este projeto foi desenvolvido durante o evento NLW Expert da Rockeatseat, a ideia dele é simular um aplicativo de pedidos.
+Este projeto foi desenvolvido durante o evento NLW Expert da Rockeatseat na trilha de **React Native**, a ideia dele é simular um aplicativo de pedidos.
 
 ## 💻 Pré-Requisitos
 - Node
 - NPM
+- React Native
 - Expo
 
 ## 📦 Alguns dos pacotes utilizados
